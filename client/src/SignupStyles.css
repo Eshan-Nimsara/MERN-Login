@@ -1,0 +1,79 @@
+/* RegistrationForm.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .gradient-custom {
+    background: linear-gradient(to right, #ffffff, #ffffff);
+  }
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .card-body {
+    border-radius: 15px;
+  }
+  
+  .form-outline {
+    position: relative;
+  }
+  
+  .form-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1rem;
+    padding: 10px 12px;
+    opacity: 0.5;
+    pointer-events: none;
+    transition: all 0.2s;
+  }
+  
+  .form-control:focus + .form-label,
+  .form-control:not(:placeholder-shown) + .form-label {
+    transform: translate(-12px, -30px) scale(0.75);
+    opacity: 1;
+  }
+  
+  .form-control {
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    box-shadow: none;
+    transition: all 0.2s;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #00d2ff;
+  }
+  
+  .btn {
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  .btn-outline-light:hover {
+    color: #333;
+    background-color: #fff;
+  }
+  
+  .text-white-50 {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
